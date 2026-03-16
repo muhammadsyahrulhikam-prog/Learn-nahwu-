@@ -4,30 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Al-Jurumiyyah Nahwu Learning Application</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .dark { background-color: #333; color: #fff; }
+        .light { background-color: #fff; color: #000; }
+        /* Additional CSS for responsiveness and layout */
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to Al-Jurumiyyah Nahwu Learning Application</h1>
+        <h1>Al-Jurumiyyah Nahwu Learning Application</h1>
+        <button id="theme-toggle">Toggle Dark/Light Theme</button>
     </header>
     <main>
         <section>
-            <h2>About Al-Jurumiyyah</h2>
-            <p>Al-Jurumiyyah is a fundamental text for learning the Arabic grammatical rules, commonly studied by students of the Arabic language.</p>
-        </section>
-        <section>
-            <h2>Learning Modules</h2>
+            <h2>Chapters</h2>
             <ul>
-                <li>Introduction to Nahwu</li>
-                <li>Parts of Speech</li>
-                <li>Sentence Structure</li>
-                <li>Common Errors in Grammar</li>
-                <li>Practice Exercises</li>
+                <li>Chapter 1: Introduction</li>
+                <li>Chapter 2: Chapter Title</li>
+                <li>Chapter 3: Chapter Title</li>
+                <li>Chapter 4: Chapter Title</li>
+                <li>Chapter 5: Chapter Title</li>
+                <li>Chapter 6: Chapter Title</li>
+                <li>Chapter 7: Chapter Title</li>
+                <li>Chapter 8: Chapter Title</li>
+                <li>Chapter 9: Chapter Title</li>
+                <li>Chapter 10: Chapter Title</li>
+                <li>Chapter 11: Chapter Title</li>
+                <li>Chapter 12: Chapter Title</li>
+                <li>Chapter 13: Chapter Title</li>
             </ul>
         </section>
+        <section>
+            <h2>Interactive Quizzes</h2>
+            <p>Quizzes will be available here.</p>
+        </section>
+        <section>
+            <h2>Terminology Dictionary</h2>
+            <p>A glossary of terms will be available here.</p>
+        </section>
+        <section>
+            <h2>Audio Support</h2>
+            <p>Audio resources will be provided here.</p>
+        </section>
+        <section>
+            <h2>Progress Tracking</h2>
+            <p>Track your progress here.</p>
+        </section>
     </main>
-    <footer>
-        <p>&copy; 2026 Al-Jurumiyyah Nahwu Learning Application. All rights reserved.</p>
-    </footer>
+    <script>
+        document.getElementById('theme-toggle').onclick = function() {
+            document.body.classList.toggle('dark');
+            document.body.classList.toggle('light');
+        };
+        // Add JavaScript for quiz functionality and progress tracking
+    </script>
 </body>
 </html>
